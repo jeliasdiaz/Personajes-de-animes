@@ -1,0 +1,105 @@
+
+body{
+    background-color: powderblue;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+/* Evangelion (resumen) */
+.evangelion{
+    float: left;
+    width: 100%;
+    margin: 1%;
+}
+h1{
+    text-align: left;
+    color: purple;
+    font-size: 40px;
+    margin-left: 17%;
+    
+}
+.imge{
+    float: right;
+    width: 40%;
+    margin: 1%;
+    border-radius: 18px;
+}
+.imge:hover{
+    width: 45%;
+}
+#peva{
+    width: 90%;
+}
+/* Contenedores de los personajes */
+.bloque{
+    float: right;
+    width: 29%;
+    padding: 1%;
+    margin: 1%;
+    position: static;
+    float: right;
+    text-align: justify;
+}
+.titulos{
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    color:black;
+}
+a:hover{
+    color: purple;
+}
+
+/* Imagenes de contenedores */
+.img{
+    float: center;
+    padding: 0.5%;
+    width: 52%;
+    margin-left: 22%;
+    border-radius: 18px;
+}
+.img:hover{
+    width: 62%;
+    display: block;
+}
+/* Parrafos */
+p{
+    font-size: 23px;
+}
+
+/* Barra superior */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 16px;
+    width: auto;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.2% 1.5%;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 18px;
+}
+.topnav a:hover {
+    background-color: purple;
+    color: white;
+}
+.topnav a.active {
+    background-color: lightgreen;
+    color: white;
+}
+#anime{
+    text-align: left;
+    margin-right: 27%;
+}
+
+/* Barra inferior */
+#bar-bottom{
+    color: black;
+}
