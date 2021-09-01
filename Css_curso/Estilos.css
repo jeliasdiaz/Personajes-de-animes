@@ -7,18 +7,25 @@ body{
     margin: auto;
 }
 
-/* Evangelion (resumen) */
-.evangelion{
+/* introduccion*/
+.introduccion{
     float: left;
     width: 100%;
     margin: 1%;
 }
-h1{
+#evacolor{
     text-align: left;
     color: purple;
     font-size: 40px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+#deathcolor{
+    text-align: left;
+    color: gray;
+    font-size: 40px;
     margin-left: 17%;
-    
+    text-decoration: none;
 }
 .imge{
     float: right;
@@ -26,12 +33,17 @@ h1{
     margin: 1%;
     border-radius: 18px;
 }
-.imge:hover{
-    width: 45%;
+.imgd{
+    float: left;
+    width: 50%;
+    margin-left: 5.5%;
+    margin-top: 3%;
+    border-radius: 18px;
 }
 #peva{
     width: 90%;
 }
+
 /* Contenedores de los personajes */
 .bloque{
     float: right;
@@ -70,7 +82,12 @@ p{
     font-size: 23px;
 }
 
+/* Linea divisoria */
+.divisor{
+    border-color: black;
+}
 /* Barra superior */
+
 .topnav {
     background-color: #333;
     overflow: hidden;
