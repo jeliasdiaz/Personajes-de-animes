@@ -1,0 +1,197 @@
+
+body{
+    background-color: powderblue;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+/* introduccion*/
+.introduccion{
+    float: left;
+    width: 100%;
+    margin: 1%;
+}
+#evacolor{
+    text-align: left;
+    color: purple;
+    font-size: 40px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+#deathcolor{
+    text-align: left;
+    color: gray;
+    font-size: 40px;
+    margin-left: 17%;
+    text-decoration: none;
+}
+#blackcolor{
+    text-align: left;
+    color: red;
+    font-size: 40px;
+    margin-left: 17%;
+    text-decoration: none;
+}
+.imge{
+    float: right;
+    width: 41%;
+    margin: 1.5%;
+    border-radius: 18px;
+}
+.imgd{
+    float: left;
+    width: 51%;
+    margin-left: 3%;
+    margin-top: 6.9%;
+    border-radius: 18px;
+}
+#peva{
+    width: 90%;
+    text-align: justify;
+    font-size: 22px;
+}
+
+/* Contenedores de los personajes */
+.bloque{
+    float: right;
+    width: 29%;
+    padding: 1%;
+    margin: 1%;
+    position: static;
+    text-align: justify;
+}
+.titulos{
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    color:black;
+}
+a:hover{
+    color: purple;
+    transition: all .3s;
+}
+
+/* Imagenes de contenedores */
+.img{
+    float: center;
+    padding: 0.5%;
+    width: 53%;
+    margin-left: 21.5%;
+    border-radius: 18px;
+}
+.img:hover{
+    width: 62%;
+    display: block;
+    transition: all .4s;
+}
+/* Parrafos */
+p{
+    font-size: 22px;
+}
+
+/* Linea divisoria */
+.divisor{
+    border-color: black;
+}
+/* Barra superior */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 18px;
+    width: auto;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.2% 1.5%;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 18px;
+}
+.topnav a:hover {
+    background-color: purple;
+    color: white;
+    transition: all .3s;
+}
+#imagen-static{
+    position: fixed;
+    margin: 0.5%;
+}
+#anime{
+    text-align: left;
+    margin-right: 27%;
+}
+/* Barra inferior */
+#bar-bottom{
+    color: black;
+}
+
+/* Indice */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 18px;
+    transition: all 0.3s;
+  }
+.subnav {
+    float: left;
+    overflow: hidden;
+  }
+
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: lightgreen;
+    border-radius: 12px;
+    color: black;
+  }
+
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #333;
+    border: purple solid;
+    width: 22%;
+    z-index: 1;
+    border-radius: 18px;
+    margin-left: 6%;
+  }
+ 
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin-left: 0.5%;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+/* Fin indice */
