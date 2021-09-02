@@ -36,21 +36,21 @@ body{
 }
 .imge{
     float: right;
-    width: 40%;
+    width: 41%;
     margin: 1.5%;
     border-radius: 18px;
 }
 .imgd{
     float: left;
-    width: 50%;
-    margin-left: 5.5%;
-    margin-top: 3%;
+    width: 51%;
+    margin-left: 3%;
+    margin-top: 6.9%;
     border-radius: 18px;
 }
 #peva{
     width: 90%;
     text-align: justify;
-    font-size: 21px;
+    font-size: 22px;
 }
 
 /* Contenedores de los personajes */
@@ -59,7 +59,7 @@ body{
     width: 29%;
     padding: 1%;
     margin: 1%;
-    position: static;;
+    position: static;
     text-align: justify;
 }
 .titulos{
@@ -78,7 +78,7 @@ a:hover{
 .img{
     float: center;
     padding: 0.5%;
-    width: 52%;
+    width: 53%;
     margin-left: 21.5%;
     border-radius: 18px;
 }
@@ -178,8 +178,7 @@ p{
     border-radius: 18px;
     margin-left: 6%;
   }
-
-  
+ 
 .subnav-content a {
     float: left;
     color: white;
