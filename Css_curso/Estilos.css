@@ -173,7 +173,7 @@ p{
     left: 0;
     background-color: #333;
     border: purple solid;
-    width: 18%;
+    width: 22%;
     z-index: 1;
     border-radius: 18px;
     margin-left: 6%;
@@ -184,6 +184,7 @@ p{
     float: left;
     color: white;
     text-decoration: none;
+    margin-left: 0.5%;
   }
   
   .subnav-content a:hover {
