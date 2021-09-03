@@ -34,6 +34,13 @@ body{
     margin-left: 17%;
     text-decoration: none;
 }
+#attackcolor{
+    text-align: left;
+    color: brown;
+    font-size: 40px;
+    margin-left: 17%;
+    text-decoration: none;
+}
 .imge{
     float: right;
     width: 41%;
@@ -173,17 +180,18 @@ p{
     left: 0;
     background-color: #333;
     border: purple solid;
-    width: 22%;
+    width: 10%;
     z-index: 1;
     border-radius: 18px;
-    margin-left: 6%;
+    margin-left: 5.5%;
   }
  
 .subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
-    margin-left: 0.5%;
+    margin-left: 2%;
+    text-align: left;
   }
   
   .subnav-content a:hover {
