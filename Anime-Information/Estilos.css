@@ -24,21 +24,21 @@ body{
     text-align: left;
     color: gray;
     font-size: 40px;
-    margin-left: 17%;
+    margin-left: 18%;
     text-decoration: none;
 }
 #blackcolor{
     text-align: left;
     color: red;
     font-size: 40px;
-    margin-left: 17%;
+    margin-left: 18%;
     text-decoration: none;
 }
 #attackcolor{
     text-align: left;
     color: brown;
     font-size: 40px;
-    margin-left: 17%;
+    margin-left: 16%;
     text-decoration: none;
 }
 #demoncolor{
@@ -46,6 +46,13 @@ body{
     color: orange;
     font-size: 40px;
     margin-left: 17%;
+    text-decoration: none;
+}
+#firecolor{
+    text-align: left;
+    color: orangered;
+    font-size: 40px;
+    margin-left: 13%;
     text-decoration: none;
 }
 .imge{
@@ -139,10 +146,36 @@ p{
     text-align: left;
     margin-right: 27%;
 }
-/* Barra inferior */
-#bar-bottom{
-    color: black;
+/* Footer */
+footer {
+    clear: both;
+    position: relative;
+    float: left;
+    width: 26%;
+    height: 100%;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: 7.5%;
+    margin-bottom: 1%;
 }
+footer ul li{
+    list-style: none;
+    font-size: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    margin-top: 1%;
+}
+#icons-footer{
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#icon-goeat{
+    width: 8.5%;
+    margin-top: 1%;
+}
+
 
 /* Indice */
 .navbar {
