@@ -55,6 +55,13 @@ body{
     margin-left: 13%;
     text-decoration: none;
 }
+#codecolor{
+    text-align: left;
+    color: purple;
+    font-size: 40px;
+    margin-left: 18%;
+    text-decoration: none;
+}
 .imge{
     float: right;
     width: 41%;
@@ -63,8 +70,8 @@ body{
 }
 .imgd{
     float: left;
-    width: 51%;
-    margin-left: 3%;
+    width: 50%;
+    margin-left: 3.5%;
     margin-top: 6.9%;
     border-radius: 18px;
 }
@@ -107,6 +114,7 @@ a:hover{
     width: 62%;
     display: block;
     transition: all .4s;
+    transition-delay: 0.2s;
 }
 /* Parrafos */
 p{
@@ -151,11 +159,11 @@ footer {
     clear: both;
     position: relative;
     float: left;
-    width: 26%;
+    width: 28%;
     height: 100%;
     background-color: gray;
     border-radius: 10px;
-    margin-left: 7.5%;
+    margin-left: 2.5%;
     margin-bottom: 1%;
 }
 footer ul li{
