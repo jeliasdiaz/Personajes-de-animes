@@ -62,6 +62,13 @@ body{
     margin-left: 18%;
     text-decoration: none;
 }
+#kakecolor{
+    text-align: left;
+    color: rgb(136, 3, 3);
+    font-size: 40px;
+    margin-left: 18%;
+    text-decoration: none;
+}
 .imge{
     float: right;
     width: 41%;
@@ -159,7 +166,7 @@ footer {
     clear: both;
     position: relative;
     float: left;
-    width: 28%;
+    width: 29%;
     height: 100%;
     background-color: gray;
     border-radius: 10px;
