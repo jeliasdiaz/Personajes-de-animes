@@ -134,14 +134,14 @@ p{
 }
 /* Barra superior */
 .topnav {
-    background-color: #333;
+    background-color:mintcream;
     overflow: hidden;
     border-radius: 18px;
     width: auto;
 }
 .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 1.2% 1.5%;
     text-decoration: none;
@@ -149,7 +149,7 @@ p{
     border-radius: 18px;
 }
 .topnav a:hover {
-    background-color: purple;
+    background-color: black;
     color: white;
     transition: all .3s;
 }
@@ -193,21 +193,6 @@ footer ul li a{
 
 
 /* Indice */
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  .navbar a{
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-radius: 18px;
-    transition: all 0.3s;
-  }
 .subnav {
     float: left;
     overflow: hidden;
@@ -233,24 +218,25 @@ footer ul li a{
     display: none;
     position: absolute;
     left: 0;
-    background-color: #333;
-    border: purple solid;
+    background-color: mintcream;
+    border: black solid;
     width: 10%;
     z-index: 1;
     border-radius: 18px;
     margin-left: 5.5%;
+    margin-top: 0.1%;
   }
  
 .subnav-content a {
     float: left;
-    color: white;
+    color: black;
     text-decoration: none;
     margin-left: 2%;
     text-align: left;
   }
   
   .subnav-content a:hover {
-    background-color: #eee;
+    background-color: lightgreen;
     color: black;
   }
   
