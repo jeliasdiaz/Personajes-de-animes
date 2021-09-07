@@ -69,6 +69,13 @@ body{
     margin-left: 18%;
     text-decoration: none;
 }
+#tokyocolor{
+    text-align: left;
+    color: rgb(99, 4, 4);
+    font-size: 40px;
+    margin-left: 18%;
+    text-decoration: none;
+}
 .imge{
     float: right;
     width: 41%;
@@ -132,6 +139,7 @@ p{
 .divisor{
     border-color: black;
 }
+
 /* Barra superior */
 .topnav {
     background-color:mintcream;
@@ -244,3 +252,12 @@ footer ul li a{
     display: block;
   }
 /* Fin indice */
+
+/* Scroll */
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 5px;
+}
