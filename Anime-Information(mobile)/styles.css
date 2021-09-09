@@ -1,4 +1,3 @@
-
 body{
     background-color: powderblue;
 }
@@ -17,7 +16,7 @@ body{
     text-align: left;
     color: purple;
     font-size: 40px;
-    margin-left: 10%;
+    margin-left: 9%;
     text-decoration: none;
 }
 #deathcolor{
@@ -31,54 +30,54 @@ body{
     text-align: left;
     color: red;
     font-size: 40px;
-    margin-left: 18%;
+    margin-left: 15%;
     text-decoration: none;
 }
 #attackcolor{
-    text-align: left;
+    text-align: center;
     color: brown;
     font-size: 40px;
-    margin-left: 16%;
+    margin-left: 15%;
     text-decoration: none;
 }
 #demoncolor{
     text-align: left;
     color: orange;
     font-size: 40px;
-    margin-left: 17%;
+    margin-left: 14%;
     text-decoration: none;
 }
 #firecolor{
     text-align: left;
     color: orangered;
     font-size: 40px;
-    margin-left: 13%;
+    margin-left: 12%;
     text-decoration: none;
 }
 #codecolor{
     text-align: left;
     color: purple;
     font-size: 40px;
-    margin-left: 18%;
+    margin-left: 17%;
     text-decoration: none;
 }
 #kakecolor{
     text-align: left;
     color: rgb(136, 3, 3);
     font-size: 40px;
-    margin-left: 18%;
+    margin-left: 17%;
     text-decoration: none;
 }
 #tokyocolor{
     text-align: left;
     color: rgb(99, 4, 4);
     font-size: 40px;
-    margin-left: 18%;
+    margin-left: 16%;
     text-decoration: none;
 }
 .imge{
     float: right;
-    width: 41%;
+    width: 50%;
     margin: 1.5%;
     border-radius: 18px;
 }
@@ -92,7 +91,7 @@ body{
 #peva{
     width: 90%;
     text-align: justify;
-    font-size: 22px;
+    font-size: 12px;
 }
 
 /* Contenedores de los personajes */
@@ -107,6 +106,7 @@ body{
 .titulos{
     text-decoration: none;
     text-align: center;
+    font-size: 10px;
 }
 a{
     color:black;
@@ -120,7 +120,7 @@ a:hover{
 .img{
     float: center;
     padding: 0.5%;
-    width: 53%;
+    width: 80%;
     margin-left: 21.5%;
     border-radius: 18px;
 }
@@ -132,7 +132,7 @@ a:hover{
 }
 /* Parrafos */
 p{
-    font-size: 22px;
+    font-size: 12px;
 }
 
 /* Linea divisoria */
@@ -151,10 +151,11 @@ p{
     float: right;
     color: black;
     text-align: center;
-    padding: 1.2% 1.5%;
+    padding: 1% 1%;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     border-radius: 18px;
+    margin-left: 4%;
 }
 .topnav a:hover {
     background-color: black;
@@ -164,38 +165,41 @@ p{
 #imagen-static{
     position: fixed;
     margin: 0.5%;
+    width: 5%;
 }
 #anime{
     text-align: left;
-    margin-right: 27%;
+    margin-left : 6%;
 }
 /* Footer */
 footer {
     clear: both;
     position: relative;
     float: left;
-    width: 29%;
+    width: 60%;
     height: 100%;
     background-color: gray;
     border-radius: 10px;
-    margin-left: 2.5%;
+    margin-left: 10%;
     margin-bottom: 1%;
+    padding-right: 21%;
+    text-align: center;
 }
 footer ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 footer ul li a{
     text-decoration: none;
     margin-top: 1%;
 }
 #icons-footer{
-    width: 10%;
+    width: 17%;
     margin-top: 1%;
     margin-left: 1%;
 }
 #icon-goeat{
-    width: 8.5%;
+    width: 15%;
     margin-top: 1%;
 }
 
@@ -207,7 +211,7 @@ footer ul li a{
   }
 
   .subnav .subnavbtn {
-    font-size: 16px;  
+    font-size: 13px;  
     border: none;
     outline: none;
     color: white;
@@ -228,7 +232,7 @@ footer ul li a{
     left: 0;
     background-color: mintcream;
     border: black solid;
-    width: 10%;
+    width: 22%;
     z-index: 1;
     border-radius: 18px;
     margin-left: 5.5%;
