@@ -1,12 +1,11 @@
 body{
     background-color: white;
+    font-family: 'Raleway', sans-serif;
 }
 .contenedor{
     width: 87%;
     margin: auto;
-    max-width: 1200px;
 }
-
 /* introduccion*/
 .introduccion{
     float: left;
@@ -183,7 +182,7 @@ footer {
     float: left;
     width: 29%;
     height: 100%;
-    background-color: gray;
+    background-color: darkgray;
     border-radius: 10px;
     margin-left: 33%;
     margin-bottom: 1%;
