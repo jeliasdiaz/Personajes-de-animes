@@ -121,11 +121,11 @@ a:hover{
     float: center;
     padding: 0.5%;
     width: 80%;
-    margin-left: 21.5%;
+    margin-left: 18%;
     border-radius: 18px;
 }
 .img:hover{
-    width: 62%;
+    width: 90%;
     display: block;
     transition: all .4s;
     transition-delay: 0.2s;
@@ -164,7 +164,6 @@ p{
 }
 #imagen-static{
     position: fixed;
-    margin: 0.5%;
     width: 5%;
 }
 #anime{
@@ -232,7 +231,7 @@ footer ul li a{
     left: 0;
     background-color: mintcream;
     border: black solid;
-    width: 22%;
+    width: 25%;
     z-index: 1;
     border-radius: 18px;
     margin-left: 5.5%;

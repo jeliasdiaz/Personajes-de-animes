@@ -1,9 +1,10 @@
 body{
-    background-color: powderblue;
+    background-color: white;
 }
 .contenedor{
-    width: 90%;
+    width: 87%;
     margin: auto;
+    max-width: 1200px;
 }
 
 /* introduccion*/
@@ -85,23 +86,30 @@ body{
     float: left;
     width: 50%;
     margin-left: 3.5%;
-    margin-top: 6.9%;
+    margin-top: 3%;
     border-radius: 18px;
 }
 #peva{
     width: 90%;
     text-align: justify;
     font-size: 22px;
+    margin-top: 6%;
 }
 
 /* Contenedores de los personajes */
 .bloque{
     float: right;
-    width: 29%;
+    width: 28%;
     padding: 1%;
-    margin: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 2%;
     position: static;
     text-align: justify;
+    box-shadow: 0px 0px 50px rgba(185, 178, 178, 0.74);
+    border-radius: 15px;
+    background-color: whitesmoke;
 }
 .titulos{
     text-decoration: none;
@@ -141,7 +149,7 @@ p{
 
 /* Barra superior */
 .topnav {
-    background-color:mintcream;
+    background-color: lightblue;
     overflow: hidden;
     border-radius: 18px;
     width: auto;
@@ -185,7 +193,7 @@ footer {
 footer ul li{
     list-style: none;
     font-size: 20px;
-}
+}   
 footer ul li a{
     text-decoration: none;
     margin-top: 1%;
@@ -218,7 +226,7 @@ footer ul li a{
     margin: 0;
   }
   .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: lightgreen;
+    background-color: lightsalmon;
     border-radius: 12px;
     color: black;
   }
@@ -227,13 +235,14 @@ footer ul li a{
     display: none;
     position: absolute;
     left: 0;
-    background-color: mintcream;
+    background-color: rgb(203, 233, 243);
     border: black solid;
     width: 10%;
     z-index: 1;
     border-radius: 18px;
-    margin-left: 5.5%;
+    margin-left: 7%;
     margin-top: 0.1%;
+    padding-left: 0.2%;
   }
  
 .subnav-content a {
@@ -245,7 +254,7 @@ footer ul li a{
   }
   
   .subnav-content a:hover {
-    background-color: lightgreen;
+    background-color: lightsalmon;
     color: black;
   }
   
