@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color:snow;
     font-family: 'Raleway', sans-serif;
 }
 .contenedor{
@@ -11,6 +11,10 @@ body{
     float: left;
     width: 100%;
     margin: 1%;
+    padding-left: 1%;
+    box-shadow: 0px 0px 50px rgba(185, 178, 178, 0.74);
+    border-radius: 18px;
+    background-color: whitesmoke;
 }
 #evacolor{
     text-align: left;
@@ -103,7 +107,7 @@ body{
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
-    margin-right: 2%;
+    margin-right: 1.5%;
     position: static;
     text-align: justify;
     box-shadow: 0px 0px 50px rgba(185, 178, 178, 0.74);
@@ -152,6 +156,7 @@ p{
     overflow: hidden;
     border-radius: 18px;
     width: auto;
+    margin-left: 2%;
 }
 .topnav a {
     float: right;
@@ -163,9 +168,11 @@ p{
     border-radius: 18px;
 }
 .topnav a:hover {
-    background-color: black;
-    color: white;
+    background-color: lightsalmon;
+    color: black;
     transition: all .3s;
+    padding-bottom: 1.5%;
+    transition: all 0.3s;
 }
 #imagen-static{
     position: fixed;
@@ -228,6 +235,7 @@ footer ul li a{
     background-color: lightsalmon;
     border-radius: 12px;
     color: black;
+    transition: all 0.3s;
   }
 
   .subnav-content {
@@ -239,7 +247,7 @@ footer ul li a{
     width: 10%;
     z-index: 1;
     border-radius: 18px;
-    margin-left: 7%;
+    margin-left: 8.9%;
     margin-top: 0.1%;
     padding-left: 0.2%;
   }
