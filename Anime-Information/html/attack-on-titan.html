@@ -53,13 +53,17 @@
           </div>
         </div>
       </nav>
-    <div>
-        <a href="#home"><img src="/img/icono-principal.ico" id="imagen-static" title="Back"></a>
-    </div>
+        <!-- Dark mode -->
+        <button type="button" class="btn btn-dark" onclick="cambiarModo()"><i class="fas fa-moon"></i></i></button>
+        <script type="text/javascript"> 
+          function cambiarModo() { 
+            var cuerpoweb = document.body; 
+            cuerpoweb.classList.toggle("oscuro"); 
+          } 
+        </script>
     <div class="contenedor">
         <!-- Attack On Titan -->
         <div class="introduccion">
-        
             <h1><a href="https://www.google.com/search?q=attack+on+titan&bih=695&biw=1366&hl=en&sxsrf=AOaemvIWM2-n3tbGEt4CRrGboY8_-9-fLw%3A1630631513608&ei=WXYxYcjWJI6UwbkPvoqzgAM&oq=attack+on+titan&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjELADECcyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyCgguEMgDELADEEMyCgguEMgDELADEEMyCgguEMgDELADEEMyCgguEMgDELADEEMyCgguEMgDELADEENKBQg4EgExSgQIQRgAUABYAGDnCGgBcAJ4AIABAIgBAJIBAJgBAMgBDsABAQ&sclient=gws-wiz&ved=0ahUKEwiI54Lhz-HyAhUOSjABHT7FDDAQ4dUDCA4&uact=5" target="_blank" id="attackcolor">Attack On Titan</a></h1>
             <img src="/img/attack-on-titan.jpg" class="imge">
             <p id="peva">
@@ -82,7 +86,7 @@
         <!-- Attack On Titan Containers -->
         <div class="bloque">
             <a href="https://bit.ly/38CyRwS" class="titulos" target="_blank"><h2>Gabi Braun</h2></a>
-            <a href="https://bit.ly/38CyRwS" target="_blank"><img src="/img/Gabi-Braun.png"  class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/38CyRwS" target="_blank"><img src="/img/Gabi-Braun.png"  class="img"></a></div>
             <p>
                 Gabi Braun (ガビ・ブラウン Gabi Buraun) is an Eldian serving in the Marleyan Military and the cousin of Reiner Braun. She is a candidate (戦士候補生 Senshi Kōho-sei) that is likely to inherit the Armored Titan's power.
                 <br>
@@ -93,7 +97,7 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3DHr670" class="titulos" target="_blank"><h2>Mikasa Ackerman</h2></a>
-            <a href="https://bit.ly/3DHr670" target="_blank"><img src="/img/Mikasa Ackerman.png" alt="" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3DHr670" target="_blank"><img src="/img/Mikasa Ackerman.png" alt="" class="img"></a></div>
             <p>
                 Mikasa Ackermann (ミカサ・アッカーマン Mikasa Akkāman) is one of the two deuteragonists of the series. She is the last descendant of the Shogun clan that stayed on Paradis Island, thereby related to the Azumabito family, and holds significant political power in Hizuru.
                 <br>
@@ -104,7 +108,7 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3yGcHEo" class="titulos" target="_blank"><h2>Eren Jaeger</h2></a>
-            <a href="https://bit.ly/3yGcHEo" target="_blank"><img src="/img/Eren-Jaeger.png" alt="" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3yGcHEo" target="_blank"><img src="/img/Eren-Jaeger.png" alt="" class="img"></a></div>
             <p>
                 Eren Jaeger (エレン・イェーガー Eren Yēgā) is a former member of the Scout Regiment and the main protagonist of Attack on Titan. He is the only son of Grisha and Carla Jaeger, the younger paternal half brother of Zeke Jaeger, and the current holder of the Attack Titan, Founding Titan, and the War Hammer Titan.
                 <br>

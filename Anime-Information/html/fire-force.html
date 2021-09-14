@@ -53,13 +53,17 @@
           </div>
         </div>
       </nav>
-    <div id="home">
-        <a href="#home"><img src="/img/icono-principal.ico" id="imagen-static" title="Back"></a>
-    </div>
+        <!-- Dark mode -->
+        <button type="button" class="btn btn-dark" onclick="cambiarModo()"><i class="fas fa-moon"></i></button>
+        <script type="text/javascript"> 
+          function cambiarModo() { 
+            var cuerpoweb = document.body; 
+            cuerpoweb.classList.toggle("oscuro"); 
+          } 
+        </script>
     <div class="contenedor">
         <!-- Demon Slayer -->
         <div class="introduccion">
-        
             <h1 id="evacolor"><a href="https://bit.ly/3jKG9os"id="firecolor"target="_blank">Fire Force</a></h1>
             <img src="/img/fire-force.jpg" class="imge">
             <p id="peva">
@@ -79,7 +83,7 @@
         <!-- Fire Force Containers -->
         <div class="bloque">
             <a href="https://bit.ly/2YhpPDu" class="titulos" target="_blank"><h2>Maki Oze</h2></a>
-            <a href="https://bit.ly/2YhpPDu" target="_blank"><img src="/img/Maki-Oze.png"  class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/2YhpPDu" target="_blank"><img src="/img/Maki-Oze.png"  class="img"></a></div>
             <p>
                 Maki Oze (茉希尾瀬, Maki Oze) is the daughter of General Oze and a Second Generation pyrokinetic serving as Unit Leader of Tokyo's Special Fire Force Company 8.
                 <br>
@@ -90,7 +94,7 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3tgfnry" class="titulos" target="_blank"><h2>Akitaru Ōbi</h2></a>
-            <a href="https://bit.ly/3tgfnry" target="_blank"><img src="/img/Akitaru-Ōbi.png" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3tgfnry" target="_blank"><img src="/img/Akitaru-Ōbi.png" class="img"></a></div>
             <p>
                 Akitaru Ōbi (秋樽桜備, Akitaru Ōbi) is the captain of Tokyo's Special Fire Force Company 8. Akitaru is a well-built young man with short, somewhat unruly dark hair, with the sides of his head being shaven. Akitaru also has small dark brown eyes. He is seen wearing bunker gear, which consists of a black tank top, buckled at the waist with a belt, which presses a middle part that's strapped to his shoulders, and dark pants.
             </p>
@@ -98,7 +102,7 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3h3VOOe" class="titulos" target="_blank"><h2>Shinra Kusakabe</h2></a>
-            <a href="https://bit.ly/3h3VOOe" target="_blank"><img src="/img/Shinra kusakabe.png" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3h3VOOe" target="_blank"><img src="/img/Shinra kusakabe.png" class="img"></a></div>
             <p>
                 Shinra Kusakabe (日くさ下か部べ 森しん羅ら, Kusakabe Shinra) is a Third and Fourth Generation pyrokinetic in the service of Special Fire Force Company 8. After his mother's death, and supposedly his younger brother's as well, Shinra joined the Special Fire Force to achieve his goal of becoming a hero, saving people from Spontaneous Human Combustion, and uncovering the truth behind his family's death twelve years ago.
 

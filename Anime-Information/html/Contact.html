@@ -45,9 +45,14 @@
       </div>
     </div>
   </nav>
-    <div id="home">
-        <a href="#home"><img src="/img/icono-principal.ico" id="imagen-static" title="Back"></a>
-    </div>
+        <!-- Dark mode -->
+        <button type="button" class="btn btn-dark" onclick="cambiarModo()"><i class="fas fa-moon"></i></button>
+        <script type="text/javascript"> 
+          function cambiarModo() { 
+            var cuerpoweb = document.body; 
+            cuerpoweb.classList.toggle("oscuro"); 
+          } 
+        </script>
     <div class="contenedor">
       <address style="text-align: center;">
           <h2 style="color: black; font-size: 30px;">Leave us your message</h2>

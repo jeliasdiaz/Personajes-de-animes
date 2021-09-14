@@ -53,9 +53,14 @@
           </div>
         </div>
       </nav>
-    <div id="home">
-        <a href="#home"><img src="/img/icono-principal.ico" id="imagen-static" title="Back"></a>
-    </div>
+        <!-- Dark mode -->
+        <button type="button" class="btn btn-dark" onclick="cambiarModo()"><i class="fas fa-moon"></i></button>
+        <script type="text/javascript"> 
+          function cambiarModo() { 
+            var cuerpoweb = document.body; 
+            cuerpoweb.classList.toggle("oscuro"); 
+          } 
+        </script>
     <div class="contenedor">
           <!-- Evangelion -->
           <div class="introduccion">
@@ -72,7 +77,8 @@
         <!-- Evangelion containers-->
         <div class="bloque">
             <a href="https://bit.ly/3ynDYLH" class="titulos" target="_blank"><h2>Asuka Langley</h2></a>
-            <a href="https://bit.ly/3Bw3a4z" target="_blank"><img src="/img/Asuka.jpg" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3Bw3a4z" target="_blank"><img src="/img/Asuka.jpg"></a></div>
+            
             <p>
                 Asuka Langley Sohryu (惣流・アスカ・ラングレー,"Sōryū Asuka Rangurē") is a 14-year-old fictional character from the Neon Genesis Evangelion franchise and one of the main female characters. Asuka is designated as the Second Child ("Second Children" in the original Japanese versions) of the Evangelion Project and pilots the Evangelion Unit-02. Her surname is romanized as Soryu in the English manga and Sohryu in the English version of the TV series, the English version of the anime movie.
             </p>
@@ -80,7 +86,7 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3sVvzOH" class="titulos" target="_blank"><h2>Rei ayanami</h2></a>
-            <a href="https://bit.ly/3sVvzOH" target="_blank"><img src="/img/rei-ayanami.jpg" alt="" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3sVvzOH" target="_blank"><img src="/img/rei-ayanami.jpg" alt="Rei ayanami"></a></div>
             <p>
                 Rei Ayanami (綾波 レイ, "Ayanami Rei") is a fictional character from the Neon Genesis Evangelion franchise. She is the First Child, (referred as the First Children in the Japanese version), the pilot of Evangelion Unit-00 and one of the central characters.
                 <br>
@@ -91,7 +97,7 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3DwjKmL" class="titulos" target="_blank"><h2>Shinji Ikari</h2></a>
-            <a href="https://bit.ly/3DwjKmL" target="_blank"><img src="/img/shinji.jpg" alt="" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3DwjKmL" target="_blank"><img src="/img/shinji.jpg" alt="" class="img"></a></div>
             <p>
                 Shinji Ikari (碇シンジ, "Ikari Shinji") is the Third Child, the main protagonist of the series and the designated pilot of Evangelion Unit-01. He is the son of Gehirn bioengineer Yui Ikari and NERV Commander (formerly Chief of Gehirn) Gendo Ikari. After his mother's death, he was abandoned by his father and lived for 11 years with his sensei, until he was summoned to Tokyo-3 to pilot Unit-01 against the Angels.
             </p>

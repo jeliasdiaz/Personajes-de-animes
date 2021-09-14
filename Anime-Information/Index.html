@@ -21,7 +21,7 @@
 
   gtag('config', 'G-Z31E7123SD');
 </script>
-<body>
+<body class="oscuro">
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <a lass="navbar-brand" href="Index.html"><img src="img/logo.png" alt="logo"></a>
@@ -53,10 +53,15 @@
       </div>
     </div>
   </nav>
-    <div id="home">
-        <a href="#home"><img src="img/icono-principal.ico" id="imagen-static" title="Back"></a>
-    </div>
-      <div class="contenedor">
+      <!-- Dark mode -->
+      <button type="button" class="btn btn-dark" onclick="cambiarModo()"><i class="fas fa-moon"></i></button>
+      <script type="text/javascript"> 
+        function cambiarModo() { 
+          var cuerpoweb = document.body; 
+          cuerpoweb.classList.toggle("oscuro"); 
+        } 
+      </script>
+      <div class="contenedor"><!-- Main div -->
 <!-- sing in -->
 <!-- <div style="float: right; width: 30%;"></div> -->
         <div id="welcome">
@@ -68,6 +73,7 @@
               For information on various anime, click on the drop-down menu. If you have any questions or questions, please go to the contact section and contact me.b
           </p>
         </div>
+
     </div><!-- closure of the main div -->
 
     <!-- Start footer -->

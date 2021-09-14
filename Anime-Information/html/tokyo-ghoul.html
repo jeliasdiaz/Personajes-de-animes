@@ -53,10 +53,15 @@
           </div>
         </div>
       </nav>
-    <div id="home">
-        <a href="#home"><img src="/img/icono-principal.ico" id="imagen-static" title="Back"></a>
-    </div>
-    <div class="contenedor">
+        <!-- Dark mode -->
+        <button type="button" class="btn btn-dark" onclick="cambiarModo()"><i class="fas fa-moon"></i> | <i class="fas fa-sun"></i></button>
+        <script type="text/javascript"> 
+          function cambiarModo() { 
+            var cuerpoweb = document.body; 
+            cuerpoweb.classList.toggle("oscuro"); 
+          } 
+        </script>
+    <div class="contenedor"><!-- main div -->
         <!-- Tokyo Ghoul -->
         <div class="introduccion">
         
@@ -81,7 +86,7 @@
         <!-- Tokyo Ghoul Containers -->
         <div class="bloque">
             <a href="https://bit.ly/3BMtjwd" class="titulos" target="_blank"><h2>Hinami Fueguchi</h2></a>
-            <a href="https://bit.ly/3BMtjwd" target="_blank"><img src="/img/Hinami-fueguchi.jpg"  class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3BMtjwd" target="_blank"><img src="/img/Hinami-fueguchi.jpg"  class="img"></a></div>
             <p>
                 Hinami Fueguchi (笛口 雛実, Fueguchi Hinami) is a ghoul whose parents, Asaki and Ryouko Fueguchi, were killed by ghoul investigators. After the event she began to share strong pseudo-sibling relationships with both Ken Kaneki and Touka Kirishima. The CCG held insufficient information about Hinami, and therefore failed in eliminating her. She was known as subject Number 745 or Daughter in their files.
             </p>
@@ -89,14 +94,14 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3tiuYqx" class="titulos" target="_blank"><h2>Touka Kirishima</h2></a>
-            <a href="https://bit.ly/3tiuYqx" target="_blank"><img src="/img/touka-kirishima.jpg" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3tiuYqx" target="_blank"><img src="/img/touka-kirishima.jpg" class="img"></a></div>
             <p>
                 Touka Kirishima (霧嶋 董香 Kirishima Touka) is a ghoul who is an ex-waitress at Anteiku. She is the daughter of Arata Kirishima and Hikari Kirishima, the older sister of Ayato Kirishima, the wife of Ken Kaneki and the mother of Ichika Kaneki. Touka wears a rabbit mask while hunting, earning her the alias Rabbit (ラビット, Rabitto). In Tokyo Ghoul, she was a second-year student at Kiyomi High School and later a third-year after the post-Aogiri timeskip.
         </div>
 
         <div class="bloque">
             <a href="https://bit.ly/3hasEwV" class="titulos" target="_blank"><h2>Ken Kaneki</h2></a>
-            <a href="https://bit.ly/3hasEwV" target="_blank"><img src="/img/Ken-Kaneki.jpg" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3hasEwV" target="_blank"><img src="/img/Ken-Kaneki.jpg" class="img"></a></div>
             <p>
                 Ken Kaneki (金木 研, Kaneki Ken) is the main protagonist of the Tokyo Ghoul series. He is currently Touka Kirishima's husband, and the father of Ichika Kaneki. Previously, he was a student who studied Japanese literature at Kamii University, living a relatively normal life. However, this quickly changed after Rize Kamishiro's kakuhou was transplanted into him and transformed him into a one-eyed ghoul.
             </p>

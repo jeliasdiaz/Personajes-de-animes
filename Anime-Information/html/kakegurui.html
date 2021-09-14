@@ -53,9 +53,14 @@
           </div>
         </div>
       </nav>
-    <div id="home">
-        <a href="#home"><img src="/img/icono-principal.ico" id="imagen-static" title="Back"></a>
-    </div>
+        <!-- Dark mode -->
+        <button type="button" class="btn btn-dark" onclick="cambiarModo()"><i class="fas fa-moon"></i></button>
+        <script type="text/javascript"> 
+          function cambiarModo() { 
+            var cuerpoweb = document.body; 
+            cuerpoweb.classList.toggle("oscuro"); 
+          } 
+        </script>
     <div class="contenedor">
         <!-- Kakegurui -->
         <div class="introduccion">
@@ -82,7 +87,7 @@
         <!-- Kakerugurui Containers -->
         <div class="bloque">
             <a href="https://bit.ly/3DQAV2D" class="titulos" target="_blank"><h2>Ryota Suzui</h2></a>
-            <a href="https://bit.ly/3DQAV2D" target="_blank"><img src="/img/Ryota-Suzui.jpg"  class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3DQAV2D" target="_blank"><img src="/img/Ryota-Suzui.jpg"  class="img"></a></div>
             <p>
                 Ryota Suzui is one of the protagonists from Kakegurui. He is a former housepet, whom he became after losing to Mary Saotome in a gambling match. However, thanks to Yumeko Jabami, Ryota's debt was repaid after she gave him money as thanks, becoming her first friend in Hyakkaou Private Academy.
             </p>
@@ -90,7 +95,7 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3yMnop2" class="titulos" target="_blank"><h2>Mary Saotome</h2></a>
-            <a href="https://bit.ly/3yMnop2" target="_blank"><img src="/img/Mary-Saotome.jpg" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3yMnop2" target="_blank"><img src="/img/Mary-Saotome.jpg" class="img"></a></div>
             <p>
                 Mary Saotome (早乙女 芽亜里, Saotome Meari) is a deuteragonist of Kakegurui and also the main protagonist of the spin-off series Kakegurui Twin. She is a student at Hyakkaou Private Academy, and she is also a classmate of Yumeko Jabami and Ryota Suzui, who is the first character in the entire series that challenges Yumeko and loses against her.
             </p>
@@ -98,7 +103,7 @@
 
         <div class="bloque">
             <a href="https://bit.ly/3jM8Wt5" class="titulos" target="_blank"><h2>Yumeko Jabami</h2></a>
-            <a href="https://bit.ly/3jM8Wt5" target="_blank"><img src="/img/Yumeko-Jabami.jpg" class="img"></a>
+            <div class="hover-rotate"><a href="https://bit.ly/3jM8Wt5" target="_blank"><img src="/img/Yumeko-Jabami.jpg" class="img"></a></div>
             <p>
                 Yumeko Jabami (蛇喰 夢子 Jabami Yumeko) is the main protagonist of Kakegurui - Compulsive Gambler. She's a transfer student at Hyakkaou Private Academy and the classmate of Ryota Suzui and Mary Saotome. Yumeko’s family is aligned with the family of Kirari Momobami that challenges her for Hyakkaou Private Academy.
             </p>
