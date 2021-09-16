@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Nunito:wght@200&family=Raleway:wght@300;500&family=Roboto:wght@300&display=swap');
 body{
     background-color:rgb(253, 236, 234);
+    min-height: 200vh;
 }
 /* Dark mode */
 .oscuro{ 
@@ -15,6 +16,7 @@ body{
     float: right;
     margin-left: 1%;
 }
+
 .contenedor{
     width: 87%;
     margin: auto;
@@ -232,7 +234,7 @@ ul.navbar-nav{
     border-radius: 12px;
     font-family: 'Raleway', sans-serif;
 }
-ul.navbar-nav :hover{
+ul.navbar-nav:hover{
     color: black;
     transition: all .3s;
     font-family: 'Raleway', sans-serif;
@@ -339,10 +341,16 @@ body::-webkit-scrollbar-thumb{
 html{
     scroll-behavior: smooth;
 }
+#scroll-progress {
+    position: fixed;
+    top: 0;
+    width: 0%;
+    height: 4px;
+    background: purple;
+    z-index: 10000;
+}
 
 /* Contact */
 .fas fa-comment-dots fa-3x{
     margin-top: 1%;
 }
-
-  

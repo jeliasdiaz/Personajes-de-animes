@@ -22,6 +22,18 @@
   gtag('config', 'G-Z31E7123SD');
 </script>
 <body>
+    <!-- Scroll bar top animation -->
+  <div id="scroll-progress"></div>
+  <script>const scrollProgress = document.getElementById('scroll-progress');
+    const height =
+      document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    
+    window.addEventListener('scroll', () => {
+      const scrollTop =
+        document.body.scrollTop || document.documentElement.scrollTop;
+      scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+    });</script>
+    <!-- Top nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a lass="navbar-brand" href="/Index.html"><img src="/img/logo.png" alt="logo"></a>
@@ -52,9 +64,9 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav><!-- Top nav -->
         <!-- Dark mode -->
-        <button type="button" class="btn btn-dark" onclick="cambiarModo()"><i class="fas fa-moon"></i></i></button>
+        <button type="button" class="btn btn-dark" onclick="cambiarModo()" title="Switch Mode"><i class="fas fa-moon"></i></button>
         <script type="text/javascript"> 
           function cambiarModo() { 
             var cuerpoweb = document.body; 
