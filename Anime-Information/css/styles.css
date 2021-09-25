@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Nunito:wght@200&family=Raleway:wght@300;500&family=Roboto:wght@300&display=swap');
 body{
     background-color:rgb(253, 236, 234);
-    min-height: 200vh;
+    min-height: 150vh;
 }
 /* Dark mode */
 .oscuro{ 
