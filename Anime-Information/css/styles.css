@@ -3,10 +3,13 @@
 body{
     background-color:rgb(253, 236, 234);
     min-height: 150vh;
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148810113.jpg);
+    transition: all .4s;
 }
 /* Dark mode */
 .oscuro{ 
-    background-color: #2c2b2b; 
+    background-color: #2c2b2b;
+    background-image: url();
     color: black; 
     transition: all .4s;
 }
