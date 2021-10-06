@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Nunito:wght@200&family=Raleway:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Nunito:wght@200&family=Raleway:wght@300;500&family=Roboto:wght@300&display=swap');
 body{
-    background-color:rgb(253, 236, 234);
     min-height: 150vh;
-    background-image: url(https://wallpaperaccess.com/full/868844.png);
     transition: all .4s;
     background-attachment: fixed;
     background-size: 80%;
@@ -11,7 +9,6 @@ body{
 }
 /* Dark mode */
 .oscuro{ 
-    background-color: #2c2b2b;
     background-image: url(https://wallpapercave.com/wp/wp2753567.jpg);
     background-attachment: fixed;
     color: black; 
@@ -277,7 +274,7 @@ ul.navbar-nav{
 }
 .profile-dropdown .dropdown-menu{
     background-color: rgb(170, 221, 252);
-    border-radius: 19px;
+    border-radius: 12px;
     padding-bottom: 0;
     padding-top: 0;
     box-shadow: 0px 0px 20px rgba(182, 176, 176, 0.74);
@@ -290,8 +287,8 @@ ul.navbar-nav{
 }
 /* Animation subnav */
 .animate{
-    animation-duration: 0.5s;
-    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
     animation-fill-mode: both;
     -webkit-animation-fill-mode: both;
 }
@@ -766,3 +763,16 @@ html{
         z-index: 10000;
     }
 }
+/* .imgo{
+    background-image: url(../img/Sakuta-Azusagawa.jpg);
+    background-size: 100%;
+    margin-top: 5%;
+}
+.fondo{
+    color: #fff;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: #111 0px 0px 10px;
+} */
