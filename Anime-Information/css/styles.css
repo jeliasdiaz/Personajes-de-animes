@@ -1,774 +1,770 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Nunito:wght@200&family=Raleway:wght@300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Nunito:wght@200&family=Raleway:wght@300;500&family=Roboto:wght@300&display=swap');
-body{
-    min-height: 150vh;
-    transition: all .4s;
-    background-attachment: fixed;
-    background-size: 80%;
-    background-image: url(https://wallpaperaccess.com/full/868844.png);
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Nunito:wght@200&family=Raleway:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Nunito:wght@200&family=Raleway:wght@300;500&family=Roboto:wght@300&display=swap");
+body {
+  min-height: 150vh;
+  transition: all 0.4s;
+  background-attachment: fixed;
+  background-size: 80%;
+  background-image: url(https://wallpaperaccess.com/full/868844.png);
 }
 /* Dark mode */
-.oscuro{ 
-    background-image: url(https://wallpapercave.com/wp/wp2753567.jpg);
-    background-attachment: fixed;
-    color: black; 
-    transition: all .4s;
-    background-size: 95%;
+.oscuro {
+  background-image: url(https://wallpapercave.com/wp/wp2753567.jpg);
+  background-attachment: fixed;
+  color: black;
+  transition: all 0.4s;
+  background-size: 95%;
 }
-.oscuro .maincharacters{
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+.oscuro .maincharacters {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-.btn{
-    position: fixed;
-    width: 3%;
-    float: right;
-    margin-left: 1%;
-    margin-top: 6%;
+.btn {
+  position: fixed;
+  width: 3%;
+  float: right;
+  margin-left: 1%;
+  margin-top: 6%;
 }
-.contenedor{
-    width: 87%;
-    margin: auto;
+.contenedor {
+  width: 87%;
+  margin: auto;
 }
-.contact{
-    width: 27%;
-    margin: auto;
-    box-shadow: 0px 0px 50px rgba(194, 186, 186, 0.74);
-    border-radius: 15px;
-    background-color:rgb(197, 222, 238);
+.contact {
+  width: 27%;
+  margin: auto;
+  box-shadow: 0px 0px 50px rgba(194, 186, 186, 0.74);
+  border-radius: 15px;
+  background-color: rgb(197, 222, 238);
 }
-.mailto{
-    color: black;
+.mailto {
+  color: black;
 }
-.mailto:hover{
-    color: blue;
+.mailto:hover {
+  color: blue;
 }
 /* introduction */
-.introduccion{
-    float: left;
-    width: 100%;
-    margin: 1%;
-    margin-top: 8%;
-    padding-left: 1%;
-    box-shadow: 0px 0px 50px rgba(194, 186, 186, 0.74);
-    border-radius: 15px;
-    background-color:rgb(197, 222, 238);
+.introduccion {
+  float: left;
+  width: 100%;
+  margin: 1%;
+  margin-top: 8%;
+  padding-left: 1%;
+  box-shadow: 0px 0px 50px rgba(194, 186, 186, 0.74);
+  border-radius: 15px;
+  background-color: rgb(197, 222, 238);
 }
-#evacolor{
-    text-align: left;
-    color: purple;
-    font-size: 40px;
-    margin-left: 10%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#evacolor {
+  text-align: left;
+  color: purple;
+  font-size: 40px;
+  margin-left: 10%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-.maincharacters{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+.maincharacters {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#deathcolor{
-    text-align: left;
-    color: gray;
-    font-size: 40px;
-    margin-left: 18%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#deathcolor {
+  text-align: left;
+  color: gray;
+  font-size: 40px;
+  margin-left: 18%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#blackcolor{
-    text-align: left;
-    color: red;
-    font-size: 40px;
-    margin-left: 18%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#blackcolor {
+  text-align: left;
+  color: red;
+  font-size: 40px;
+  margin-left: 18%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#attackcolor{
-    text-align: left;
-    color: brown;
-    font-size: 40px;
-    margin-left: 16%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#attackcolor {
+  text-align: left;
+  color: brown;
+  font-size: 40px;
+  margin-left: 16%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#demoncolor{
-    text-align: left;
-    color: orange;
-    font-size: 40px;
-    margin-left: 17%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#demoncolor {
+  text-align: left;
+  color: orange;
+  font-size: 40px;
+  margin-left: 17%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#firecolor{
-    text-align: left;
-    color: orangered;
-    font-size: 40px;
-    margin-left: 13%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#firecolor {
+  text-align: left;
+  color: orangered;
+  font-size: 40px;
+  margin-left: 13%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#codecolor{
-    text-align: left;
-    color: purple;
-    font-size: 40px;
-    margin-left: 18%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#codecolor {
+  text-align: left;
+  color: purple;
+  font-size: 40px;
+  margin-left: 18%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#kakecolor{
-    text-align: left;
-    color: rgb(136, 3, 3);
-    font-size: 40px;
-    margin-left: 18%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#kakecolor {
+  text-align: left;
+  color: rgb(136, 3, 3);
+  font-size: 40px;
+  margin-left: 18%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#tokyocolor{
-    text-align: left;
-    color: rgb(99, 4, 4);
-    font-size: 40px;
-    margin-left: 18%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#tokyocolor {
+  text-align: left;
+  color: rgb(99, 4, 4);
+  font-size: 40px;
+  margin-left: 18%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-#bunnycolor{
-    text-align: left;
-    color: rgb(255, 166, 179);
-    font-size: 40px;
-    margin-left: 16%;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+#bunnycolor {
+  text-align: left;
+  color: rgb(255, 166, 179);
+  font-size: 40px;
+  margin-left: 16%;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
-.imge{
-    float: right;
-    width: 41%;
-    margin: 1.5%;
-    border-radius: 18px;
+.imge {
+  float: right;
+  width: 41%;
+  margin: 1.5%;
+  border-radius: 18px;
 }
-.imgd{
-    float: left;
-    width: 50%;
-    margin-left: 3.5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border-radius: 18px;
+.imgd {
+  float: left;
+  width: 50%;
+  margin-left: 3.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 18px;
 }
-#peva{
-    width: 90%;
-    text-align: justify;
-    font-size: 22px;
-    margin-top: 3%;
-    font-family: 'Roboto', sans-serif;
+#peva {
+  width: 90%;
+  text-align: justify;
+  font-size: 22px;
+  margin-top: 3%;
+  font-family: "Roboto", sans-serif;
 }
 
 /* character containers */
-.bloque{
-    float: right;
-    width: 28%;
-    padding: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    margin-right: 3.5%;
-    position: static;
-    text-align: justify;
-    box-shadow: 0px 0px 50px rgba(182, 176, 176, 0.74);
-    border-radius: 15px;
-    background-color: rgb(222, 235, 243);
+.bloque {
+  float: right;
+  width: 28%;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 3.5%;
+  position: static;
+  text-align: justify;
+  box-shadow: 0px 0px 50px rgba(182, 176, 176, 0.74);
+  border-radius: 15px;
+  background-color: rgb(222, 235, 243);
 }
 .hover-rotate {
-    overflow: hidden;
-    margin: 8px;
-    width: 100%;
-  }
+  overflow: hidden;
+  margin: 8px;
+  width: 100%;
+}
 .hover-rotate img {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    margin-left: 15%;
-    width: 55%;
-    border-radius: 15px;
-  }
+  transition: all 0.3s;
+  box-sizing: border-box;
+  margin-left: 15%;
+  width: 55%;
+  border-radius: 15px;
+}
 .hover-rotate:hover img {
-    transform: scale(1.2) rotate(4deg);
-    border-radius: 15px;
-    width: 55%;
-  } 
-.titulos{
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: black;
+  transform: scale(1.2) rotate(4deg);
+  border-radius: 15px;
+  width: 55%;
 }
-.titulos:hover{
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    color: lightskyblue;
+.titulos {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: black;
 }
-a{
-    color:black;
-    text-decoration: none;
+.titulos:hover {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  color: lightskyblue;
 }
-a:hover{
-    color: purple;
-    transition: all .3s;
-    text-decoration: none;
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: purple;
+  transition: all 0.3s;
+  text-decoration: none;
 }
 
 /* images of containers */
-.img{
-    padding: 0.5%;
-    width: 53%;
-    margin-left: 21.5%;
-    border-radius: 18px;
+.img {
+  padding: 0.5%;
+  width: 53%;
+  margin-left: 21.5%;
+  border-radius: 18px;
 }
-.img:hover{
-    width: 62%;
-    display: block;
-    transition: all .4s;
-    transition-delay: 0.2s;
+.img:hover {
+  width: 62%;
+  display: block;
+  transition: all 0.4s;
+  transition-delay: 0.2s;
 }
 /* paragraphs */
-p{
-    font-size: 22px;
+p {
+  font-size: 22px;
 }
 
 /* top bar */
-#welcome{
-    text-align: center;
-    box-shadow: 0px 0px 50px rgba(182, 176, 176, 0.74);
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 8%;
-    background-color:rgb(197, 222, 238);
-    border-radius: 8px;
-    padding-left: 1%;
-    padding-right: 0;
-    padding-top: 1%;
-    padding-bottom: 1%;
+#welcome {
+  text-align: center;
+  box-shadow: 0px 0px 50px rgba(182, 176, 176, 0.74);
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 8%;
+  background-color: rgb(197, 222, 238);
+  border-radius: 8px;
+  padding-left: 1%;
+  padding-right: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
-#logo{
-    width: 70%;
+#logo {
+  width: 70%;
 }
-li.profile-dropdown{
-    color: black;
-    font-family: 'Raleway', sans-serif;;
+li.profile-dropdown {
+  color: black;
+  font-family: "Raleway", sans-serif;
 }
-ul.navbar-nav{  
-    color: black;
-    font-size: 17px;
-    border-radius: 12px;
-    font-family: 'Raleway', sans-serif;
+ul.navbar-nav {
+  color: black;
+  font-size: 17px;
+  border-radius: 12px;
+  font-family: "Raleway", sans-serif;
 }
-#navbarNavDropdown ul li ul.dropdown-menu li{
-    background-color: rgb(170, 221, 252);
-    border-radius: 12px;
-    font-family: 'Raleway', sans-serif;
+#navbarNavDropdown ul li ul.dropdown-menu li {
+  background-color: rgb(170, 221, 252);
+  border-radius: 12px;
+  font-family: "Raleway", sans-serif;
 }
-#navbarNavDropdown ul li ul.dropdown-menu li:hover{
-    font-family: 'Raleway', sans-serif;
-    background-color: white;
-    border-radius: 12px;
+#navbarNavDropdown ul li ul.dropdown-menu li:hover {
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+  border-radius: 12px;
 }
-#navbarDropdownMenuLink{
-    color: black;
+#navbarDropdownMenuLink {
+  color: black;
 }
-.profile-dropdown .dropdown-menu{
-    background-color: rgb(170, 221, 252);
-    border-radius: 12px;
-    padding-bottom: 0;
-    padding-top: 0;
-    box-shadow: 0px 0px 20px rgba(182, 176, 176, 0.74);
-    width: 50%;
+.profile-dropdown .dropdown-menu {
+  background-color: rgb(170, 221, 252);
+  border-radius: 12px;
+  padding-bottom: 0;
+  padding-top: 0;
+  box-shadow: 0px 0px 20px rgba(182, 176, 176, 0.74);
+  width: 50%;
 }
-.navbar{
-    background-color: lightskyblue;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 4px;
+.navbar {
+  background-color: lightskyblue;
+  font-family: "Raleway", sans-serif;
+  border-radius: 4px;
 }
 /* Animation subnav */
-.animate{
-    animation-duration: 0.3s;
-    -webkit-animation-duration: 0.3s;
-    animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
+.animate {
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
 }
-@keyframes slideDown{
-
-    0%{
-        transform: scaleY(0);
-        transform-origin: center top 0;
-    }
-    100%{
-        transform: scaleY(1);
-        transform-origin: center top 0;
-    }
+@keyframes slideDown {
+  0% {
+    transform: scaleY(0);
+    transform-origin: center top 0;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: center top 0;
+  }
 }
-@-webkit-keyframes slideDown{
-
-    0%{
-        transform: scaleY(0);
-        transform-origin: center top 0;
-    }
-    100%{
-        transform: scaleY(1);
-        transform-origin: center top 0;
-    }
+@-webkit-keyframes slideDown {
+  0% {
+    transform: scaleY(0);
+    transform-origin: center top 0;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: center top 0;
+  }
 }
-.slideDown{
-    animation-name: slideDown;
-    -webkit-animation-name: slideDown;
+.slideDown {
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
 }
 
 /* Footer */
 footer {
-    clear: both;
-    position: relative;
-    float: left;
-    height: 100%;
-    background-color: rgb(197, 194, 194);
-    border-radius: 10px;
-    margin-left: 37%;
-    margin-bottom: 1%;
-    padding-right: 4%;
-    text-align: center;
-    margin-top: 4%;
-    font-family: 'Roboto', sans-serif;
+  clear: both;
+  position: relative;
+  float: left;
+  height: 100%;
+  background-color: rgb(197, 194, 194);
+  border-radius: 10px;
+  margin-left: 37%;
+  margin-bottom: 1%;
+  padding-right: 4%;
+  text-align: center;
+  margin-top: 4%;
+  font-family: "Roboto", sans-serif;
 }
-footer ul li{
-    list-style: none;
-    font-size: 20px;
-}   
-footer ul li a{
-    text-decoration: none;
-    margin-top: 1%;
-    color: black;
+footer ul li {
+  list-style: none;
+  font-size: 20px;
 }
-.fab fa-github fa-2x{
-    margin-top: 1%;
-    margin-left: 1%;
-    color: black;
+footer ul li a {
+  text-decoration: none;
+  margin-top: 1%;
+  color: black;
 }
-.fab fa-instagram fa-2x{
-    margin-top: 1%;
-    margin-left: 1%;
-    color: black;
+.fab fa-github fa-2x {
+  margin-top: 1%;
+  margin-left: 1%;
+  color: black;
+}
+.fab fa-instagram fa-2x {
+  margin-top: 1%;
+  margin-left: 1%;
+  color: black;
 }
 
 /* Scroll */
-body::-webkit-scrollbar{
-    width: 7px;
+body::-webkit-scrollbar {
+  width: 7px;
 }
-body::-webkit-scrollbar-thumb{
-    background-color: #333;
-    border-radius: 5px;
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 5px;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 #scroll-progress {
+  position: fixed;
+  top: 0;
+  width: 0%;
+  height: 4px;
+  background: purple;
+  z-index: 10000;
+}
+
+/* Contact */
+.fas fa-comment-dots fa-3x {
+  margin-top: 1%;
+}
+/* Responsive */
+@media screen and (max-width: 800px) {
+  body {
+    background-color: rgb(253, 236, 234);
+    min-height: 150vh;
+    background-image: url(https://wallpaperaccess.com/full/868844.png);
+    transition: all 0.4s;
+    background-attachment: fixed;
+    background-size: 180%;
+  }
+  .oscuro {
+    background-color: #2c2b2b;
+    background-image: url(https://wallpapercave.com/wp/wp2753567.jpg);
+    color: black;
+    transition: all 0.4s;
+    margin-top: 20%;
+  }
+  .btn {
+    position: fixed;
+    float: right;
+    margin-left: 1%;
+    width: 8%;
+    padding-right: 1%;
+    margin-top: 18%;
+  }
+  .contenedor {
+    width: 90%;
+    margin: auto;
+  }
+  .contact {
+    width: 69%;
+    margin: auto;
+    box-shadow: 0px 0px 50px rgba(194, 186, 186, 0.74);
+    border-radius: 15px;
+    background-color: rgb(197, 222, 238);
+  }
+  /* introduccion*/
+  .introduccion {
+    float: left;
+    width: 90%;
+    margin-left: 6%;
+    font-size: 15px;
+    margin-top: 20%;
+  }
+  #evacolor {
+    text-align: left;
+    color: purple;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  .maincharacters {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #deathcolor {
+    text-align: left;
+    color: gray;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #blackcolor {
+    text-align: left;
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #attackcolor {
+    text-align: left;
+    color: brown;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #demoncolor {
+    text-align: left;
+    color: orange;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #firecolor {
+    text-align: left;
+    color: orangered;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #codecolor {
+    text-align: left;
+    color: purple;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #kakecolor {
+    text-align: left;
+    color: rgb(136, 3, 3);
+    font-size: 30px;
+    margin-left: 18%;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #tokyocolor {
+    text-align: left;
+    color: rgb(99, 4, 4);
+    font-size: 30px;
+    margin-left: 18%;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #bunnycolor {
+    text-align: left;
+    color: rgb(255, 166, 179);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  #welcome {
+    text-align: center;
+    box-shadow: 0px 0px 50px rgba(182, 176, 176, 0.74);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20%;
+    background-color: rgb(197, 222, 238);
+    border-radius: 12px;
+    padding-left: 1%;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 20px;
+  }
+  .imge {
+    float: right;
+    width: 60%;
+    margin-left: 5%;
+    margin: 1.5%;
+    border-radius: 18px;
+  }
+  .imgd {
+    float: left;
+    width: 60%;
+    margin-left: 3.5%;
+    margin-top: 6.9%;
+    border-radius: 18px;
+  }
+  #peva {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  /* Contenedores de los personajes */
+  .bloque {
+    float: right;
+    width: 45%;
+    padding: 1%;
+    position: static;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .titulos {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: purple;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+
+  /* Imagenes de contenedores */
+  .img {
+    float: center;
+    padding: 0.5%;
+    width: 80%;
+    margin-left: 18%;
+    border-radius: 18px;
+  }
+  .img:hover {
+    width: 90%;
+    display: block;
+    transition: all 0.4s;
+    transition-delay: 0.2s;
+  }
+  /* Parrafos */
+  p {
+    font-size: 12px;
+  }
+
+  /* Linea divisoria */
+  .divisor {
+    border-color: black;
+  }
+
+  /* Barra superior */
+  #anime {
+    text-align: left;
+    margin-left: 6%;
+  }
+  li.profile-dropdown {
+    color: black;
+    font-family: "Raleway", sans-serif;
+  }
+  ul.navbar-nav {
+    color: black;
+    font-size: 17px;
+    border-radius: 12px;
+    font-family: "Raleway", sans-serif;
+  }
+  #navbarNavDropdown ul li ul.dropdown-menu li {
+    background-color: rgb(170, 221, 252);
+    border-radius: 12px;
+    font-family: "Raleway", sans-serif;
+  }
+  #navbarNavDropdown ul li ul.dropdown-menu li:hover {
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+    border-radius: 12px;
+  }
+  #navbarDropdownMenuLink {
+    color: black;
+  }
+  .profile-dropdown .dropdown-menu {
+    background-color: rgb(170, 221, 252);
+    border-radius: 19px;
+    padding-bottom: 0;
+    padding-top: 0;
+    box-shadow: 0px 0px 20px rgba(182, 176, 176, 0.74);
+    width: 40%;
+  }
+  .navbar {
+    border-radius: 4px;
+    background-color: lightskyblue;
+    font-family: "Raleway", sans-serif;
+  }
+  /* Animation subnav */
+  .animate {
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+  @keyframes slideDown {
+    0% {
+      transform: scaleY(0);
+      transform-origin: center top 0;
+    }
+    100% {
+      transform: scaleY(1);
+      transform-origin: center top 0;
+    }
+  }
+  @-webkit-keyframes slideDown {
+    0% {
+      transform: scaleY(0);
+      transform-origin: center top 0;
+    }
+    100% {
+      transform: scaleY(1);
+      transform-origin: center top 0;
+    }
+  }
+  .slideDown {
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+  }
+  /* Footer */
+  footer {
+    clear: both;
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(197, 194, 194);
+    border-radius: 10px;
+    margin-left: 22%;
+    margin-bottom: 1%;
+    padding-right: 10%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+  footer ul li {
+    list-style: none;
+    font-size: 18px;
+    font-size: 14px;
+  }
+  footer ul li a {
+    text-decoration: none;
+    margin-top: 1%;
+  }
+  #icons-footer {
+    width: 17%;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+  #icon-goeat {
+    width: 15%;
+    margin-top: 1%;
+  }
+
+  /* Indice */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+
+  .subnav .subnavbtn {
+    font-size: 13px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover,
+  .subnav:hover .subnavbtn {
+    border-radius: 12px;
+    color: black;
+  }
+
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: mintcream;
+    border: black solid;
+    width: 25%;
+    z-index: 1;
+    border-radius: 18px;
+    margin-left: 5.5%;
+    margin-top: 0.1%;
+  }
+
+  .subnav-content a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    margin-left: 2%;
+    text-align: left;
+  }
+
+  .subnav-content a:hover {
+    background-color: lightgreen;
+    color: black;
+  }
+
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  /* Fin indice */
+
+  /* Scroll */
+  body::-webkit-scrollbar {
+    width: 7px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 5px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  #scroll-progress {
     position: fixed;
     top: 0;
     width: 0%;
     height: 4px;
     background: purple;
     z-index: 10000;
-}
-
-/* Contact */
-.fas fa-comment-dots fa-3x{
-    margin-top: 1%;
-}
-/* Responsive */
-@media screen and (max-width: 800px){
-    body{
-        background-color:rgb(253, 236, 234);
-        min-height: 150vh;
-        background-image: url(https://wallpaperaccess.com/full/868844.png);
-        transition: all .4s;
-        background-attachment: fixed;
-        background-size: 180%;
-        
-    }
-    .oscuro{ 
-        background-color: #2c2b2b;
-        background-image: url(https://wallpapercave.com/wp/wp2753567.jpg);
-        color: black; 
-        transition: all .4s;
-        margin-top: 20%;
-    }
-    .btn{
-        position: fixed;
-        float: right;
-        margin-left: 1%;
-        width: 8%;
-        padding-right: 1%;
-        margin-top: 18%;
-    }
-    .contenedor{
-        width: 90%;
-        margin: auto;
-    }
-    .contact{
-        width: 69%;
-        margin: auto;
-        box-shadow: 0px 0px 50px rgba(194, 186, 186, 0.74);
-        border-radius: 15px;
-        background-color:rgb(197, 222, 238);
-    } 
-    /* introduccion*/
-    .introduccion{
-        float: left;
-        width: 90%;
-        margin-left: 6%;
-        font-size: 15px;
-        margin-top: 20%;
-    }
-    #evacolor{
-        text-align: left;
-        color: purple;
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    .maincharacters{
-        text-align: center;
-        color: black;
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #deathcolor{
-        text-align: left;
-        color: gray;
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #blackcolor{
-        text-align: left;
-        color: red;
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #attackcolor{
-        text-align: left;
-        color: brown;
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #demoncolor{
-        text-align: left;
-        color: orange;
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #firecolor{
-        text-align: left;
-        color: orangered;
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #codecolor{
-        text-align: left;
-        color: purple;
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #kakecolor{
-        text-align: left;
-        color: rgb(136, 3, 3);
-        font-size: 30px;
-        margin-left: 18%;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #tokyocolor{
-        text-align: left;
-        color: rgb(99, 4, 4);
-        font-size: 30px;
-        margin-left: 18%;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #bunnycolor{
-        text-align: left;
-        color: rgb(255, 166, 179);
-        font-size: 30px;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-    }
-    #welcome{
-        text-align: center;
-        box-shadow: 0px 0px 50px rgba(182, 176, 176, 0.74);
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 20%;
-        background-color:rgb(197, 222, 238);
-        border-radius: 12px;
-        padding-left: 1%;
-        padding-right: 0;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        font-size: 20px;
-    }
-    .imge{
-        float: right;
-        width: 60%;
-        margin-left: 5%;
-        margin: 1.5%;
-        border-radius: 18px;
-    }
-    .imgd{
-        float: left;
-        width: 60%;
-        margin-left: 3.5%;
-        margin-top: 6.9%;
-        border-radius: 18px;
-    }
-    #peva{
-        width: 90%;     
-        font-size: 14px;
-    }
-    
-    /* Contenedores de los personajes */
-    .bloque{
-        float: right;
-        width: 45%;
-        padding: 1%;
-        position: static;
-        text-align: justify;
-        font-size: 16px;
-    }
-    .titulos{
-        text-decoration: none;
-        text-align: center;
-        font-size: 20px;
-    }
-    a{
-        color:black;
-        text-decoration: none;
-    }
-    a:hover{
-        color: purple;
-        transition: all .3s;
-        text-decoration: none;
-    }
-    
-    /* Imagenes de contenedores */
-    .img{
-        float: center;
-        padding: 0.5%;
-        width: 80%;
-        margin-left: 18%;
-        border-radius: 18px;
-    }
-    .img:hover{
-        width: 90%;
-        display: block;
-        transition: all .4s;
-        transition-delay: 0.2s;
-    }
-    /* Parrafos */
-    p{
-        font-size: 12px;
-    }
-    
-    /* Linea divisoria */
-    .divisor{
-        border-color: black;
-    }
-    
-    /* Barra superior */
-    #anime{
-        text-align: left;
-        margin-left : 6%;
-    }
-    li.profile-dropdown{
-        color: black;
-        font-family: 'Raleway', sans-serif;
-    }
-    ul.navbar-nav{  
-        color: black;
-        font-size: 17px;
-        border-radius: 12px;
-        font-family: 'Raleway', sans-serif;
-    }
-    #navbarNavDropdown ul li ul.dropdown-menu li{
-        background-color: rgb(170, 221, 252);
-        border-radius: 12px;
-        font-family: 'Raleway', sans-serif;
-    }
-    #navbarNavDropdown ul li ul.dropdown-menu li:hover{
-        font-family: 'Raleway', sans-serif;
-        background-color: white;
-        border-radius: 12px;
-    }
-    #navbarDropdownMenuLink{
-        color: black;
-    }
-    .profile-dropdown .dropdown-menu{
-        background-color: rgb(170, 221, 252);
-        border-radius: 19px;
-        padding-bottom: 0;
-        padding-top: 0;
-        box-shadow: 0px 0px 20px rgba(182, 176, 176, 0.74);
-        width: 40%;
-    }
-    .navbar{
-        border-radius: 4px;
-        background-color: lightskyblue;
-        font-family: 'Raleway', sans-serif;
-    }
-    /* Animation subnav */
-    .animate{
-        animation-duration: 0.5s;
-        -webkit-animation-duration: 0.5s;
-        animation-fill-mode: both;
-        -webkit-animation-fill-mode: both;
-    }
-    @keyframes slideDown{
-    
-        0%{
-            transform: scaleY(0);
-            transform-origin: center top 0;
-        }
-        100%{
-            transform: scaleY(1);
-            transform-origin: center top 0;
-        }
-    }
-    @-webkit-keyframes slideDown{
-    
-        0%{
-            transform: scaleY(0);
-            transform-origin: center top 0;
-        }
-        100%{
-            transform: scaleY(1);
-            transform-origin: center top 0;
-        }
-    }
-    .slideDown{
-        animation-name: slideDown;
-        -webkit-animation-name: slideDown;
-    }
-    /* Footer */
-    footer {
-        clear: both;
-        position: relative;
-        float: left;
-        width: 60%;
-        height: 100%;
-        background-color: rgb(197, 194, 194);
-        border-radius: 10px;
-        margin-left: 22%;
-        margin-bottom: 1%;
-        padding-right: 10%;
-        text-align: center;
-        font-family: 'Raleway', sans-serif;
-    }
-    footer ul li{
-        list-style: none;
-        font-size: 18px;
-        font-size: 14px;
-    }
-    footer ul li a{
-        text-decoration: none;
-        margin-top: 1%;
-    }
-    #icons-footer{
-        width: 17%;
-        margin-top: 1%;
-        margin-left: 1%;
-    }
-    #icon-goeat{
-        width: 15%;
-        margin-top: 1%;
-    }
-    
-    /* Indice */
-    .subnav {
-        float: left;
-        overflow: hidden;
-      }
-    
-      .subnav .subnavbtn {
-        font-size: 13px;  
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-      }
-      .navbar a:hover, .subnav:hover .subnavbtn {
-        border-radius: 12px;
-        color: black;
-      }
-    
-      .subnav-content {
-        display: none;
-        position: absolute;
-        left: 0;
-        background-color: mintcream;
-        border: black solid;
-        width: 25%;
-        z-index: 1;
-        border-radius: 18px;
-        margin-left: 5.5%;
-        margin-top: 0.1%;
-      }
-     
-    .subnav-content a {
-        float: left;
-        color: black;
-        text-decoration: none;
-        margin-left: 2%;
-        text-align: left;
-      }
-      
-      .subnav-content a:hover {
-        background-color: lightgreen;
-        color: black;
-      }
-      
-      .subnav:hover .subnav-content {
-        display: block;
-      }
-    /* Fin indice */
-    
-    /* Scroll */
-    body::-webkit-scrollbar{
-        width: 7px;
-    }
-    body::-webkit-scrollbar-thumb{
-        background-color: #333;
-        border-radius: 5px;
-    }
-    html{
-        scroll-behavior: smooth;
-    }
-    #scroll-progress {
-        position: fixed;
-        top: 0;
-        width: 0%;
-        height: 4px;
-        background: purple;
-        z-index: 10000;
-    }
+  }
 }
 /* .imgo{
     background-image: url(../img/Sakuta-Azusagawa.jpg);
