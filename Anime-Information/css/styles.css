@@ -30,7 +30,7 @@ body {
   margin-top: 6%;
 }
 .contenedor {
-  width: 87%;
+  width: 80%;
   margin: auto;
 }
 .contact {
@@ -181,6 +181,10 @@ body {
   border-radius: 15px;
   background-color: rgb(222, 235, 243);
 }
+.bloque p{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
 .hover-rotate {
   overflow: hidden;
   margin: 8px;
@@ -234,10 +238,6 @@ a:hover {
   transition: all 0.4s;
   transition-delay: 0.2s;
 }
-/* paragraphs */
-p {
-  font-size: 22px;
-}
 
 /* top bar */
 #welcome {
@@ -252,6 +252,7 @@ p {
   padding-right: 0;
   padding-top: 1%;
   padding-bottom: 1%;
+  font-size: 19px;
 }
 #logo {
   width: 70%;
@@ -332,11 +333,11 @@ footer {
   height: 100%;
   background-color: rgb(197, 194, 194);
   border-radius: 10px;
-  margin-left: 37%;
+  margin-left: 38%;
   margin-bottom: 1%;
   padding-right: 4%;
-  text-align: center;
   margin-top: 4%;
+  text-align: center;
   font-family: "Roboto", sans-serif;
 }
 footer ul li {
@@ -393,13 +394,6 @@ html {
     background-attachment: fixed;
     background-size: 180%;
   }
-  .oscuro {
-    background-color: #2c2b2b;
-    background-image: url(https://wallpapercave.com/wp/wp2753567.jpg);
-    color: black;
-    transition: all 0.4s;
-    margin-top: 20%;
-  }
   .btn {
     position: fixed;
     float: right;
@@ -407,6 +401,8 @@ html {
     width: 8%;
     padding-right: 1%;
     margin-top: 18%;
+    visibility: hidden;
+    display: none;
   }
   .contenedor {
     width: 90%;
@@ -433,11 +429,12 @@ html {
     font-size: 30px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 14.5%;
   }
   .maincharacters {
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 28px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
   }
@@ -447,6 +444,7 @@ html {
     font-size: 30px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 23.5%;
   }
   #blackcolor {
     text-align: left;
@@ -454,6 +452,7 @@ html {
     font-size: 30px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 27.5%;
   }
   #attackcolor {
     text-align: left;
@@ -461,13 +460,14 @@ html {
     font-size: 30px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 23.5%;
   }
   #demoncolor {
-    text-align: left;
     color: orange;
     font-size: 30px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 23.5%;
   }
   #firecolor {
     text-align: left;
@@ -475,6 +475,7 @@ html {
     font-size: 30px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 21.5%;
   }
   #codecolor {
     text-align: left;
@@ -482,6 +483,7 @@ html {
     font-size: 30px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 27.5%;
   }
   #kakecolor {
     text-align: left;
@@ -490,6 +492,7 @@ html {
     margin-left: 18%;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 30.5%;
   }
   #tokyocolor {
     text-align: left;
@@ -498,6 +501,7 @@ html {
     margin-left: 18%;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 23.5%;
   }
   #bunnycolor {
     text-align: left;
@@ -505,6 +509,7 @@ html {
     font-size: 30px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    margin-left: 18.5%;
   }
   #welcome {
     text-align: center;
@@ -518,35 +523,49 @@ html {
     padding-right: 0;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 20px;
+    font-size: 16px;
+  }
+  #welcome h1{
+    font-size: 25px;
+    width: 90%;
+    margin-left: 5%;
   }
   .imge {
-    float: right;
-    width: 60%;
-    margin-left: 5%;
-    margin: 1.5%;
+    width: 75%;
+    margin-left: 2%;
+    margin-right: 13%;
     border-radius: 18px;
   }
   .imgd {
     float: left;
     width: 60%;
-    margin-left: 3.5%;
+    margin-left: 19%;
     margin-top: 6.9%;
+    margin-bottom: 2%;
     border-radius: 18px;
   }
   #peva {
     width: 90%;
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 60%;
+    margin:auto;
+    text-align: center;
   }
+  
 
   /* Contenedores de los personajes */
   .bloque {
     float: right;
-    width: 45%;
+    width: 60%;
     padding: 1%;
+    margin-right: 18%;
+    margin-top: 2%;
     position: static;
-    text-align: justify;
+  }
+  .bloque p{
     font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align:center;
   }
   .titulos {
     text-decoration: none;
@@ -565,23 +584,19 @@ html {
 
   /* Imagenes de contenedores */
   .img {
-    float: center;
     padding: 0.5%;
-    width: 80%;
-    margin-left: 18%;
+    width: 53%;
+    margin-left: 21.5%;
     border-radius: 18px;
+    
   }
   .img:hover {
-    width: 90%;
+    width: 62%;
     display: block;
     transition: all 0.4s;
     transition-delay: 0.2s;
   }
   /* Parrafos */
-  p {
-    font-size: 12px;
-  }
-
   /* Linea divisoria */
   .divisor {
     border-color: black;

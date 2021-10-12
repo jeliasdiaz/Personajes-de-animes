@@ -23,7 +23,17 @@
   gtag('config', 'G-Z31E7123SD');
 </script>
 <body>
-  <!-- Scroll bar top animation -->
+    <!-- Scroll bar top animation -->
+    <div id="scroll-progress"></div>
+    <script>const scrollProgress = document.getElementById('scroll-progress');
+      const height =
+        document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      
+      window.addEventListener('scroll', () => {
+        const scrollTop =
+          document.body.scrollTop || document.documentElement.scrollTop;
+        scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+      });</script>
   <!-- Top nav -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand" href="#"><a href="/Index.html"><img src="/img/logo.png" id="logo"></a></a>
